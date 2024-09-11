@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+@import "./../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+a {
+  font-size: 0.7rem;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #666666;
+}
+
+a:hover,
+a:link {
+  color: #0c8ce9;
+}
