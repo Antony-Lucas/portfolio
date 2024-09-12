@@ -1,0 +1,27 @@
+<div class="container-projects">
+  <div class="header-container">
+    <h2>Projetos</h2>
+    <p>Alguns projetos que desenvolvi até aqui</p>
+  </div>
+
+  <div class="cards-projects">
+    <div class="card" *ngFor="let f of projects">
+      <div>
+        <img src="{{ f.img }}" alt="" />
+        <h2>{{ f.title }}</h2>
+        <p><span>Tech stack:</span> {{ f.techStack }}</p>
+        <p>{{ f.description }}</p>
+      </div>
+      <div class="card-footer">
+        <a href="{{ f.link }}" target="_blank">
+          <i class="pi pi-github git-icon" style="font-size: 0.9rem"></i
+          ><span>Ver aplicação</span></a
+        >
+        <a *ngIf="f.liveLink" target="_blank" href="{{ f.liveLink }}"
+          ><i class="pi pi-globe git-icon" style="font-size: 0.9rem"></i
+          ><span>Live preview</span></a
+        >
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+.container-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.container-stack h1 {
+  font-weight: 500;
+}
+
+.container-stack p {
+  font-size: 0.8rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stack-projects {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.stack-projects img {
+  width: 3rem;
+}
+
+@media (max-width: 768px) {
+  .stack-projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
