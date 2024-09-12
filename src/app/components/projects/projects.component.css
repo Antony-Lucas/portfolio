@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.header-container h2 {
+  font-weight: 600;
+}
+
 .cards-projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -92,6 +96,6 @@
 
 @media (max-width: 768px) {
   .cards-projects {
-    grid-template-columns: 1fr; /* Apenas uma coluna em telas pequenas */
+    grid-template-columns: 1fr;
   }
 }

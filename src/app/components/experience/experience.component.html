@@ -1,0 +1,28 @@
+<div class="container-xp">
+  <div class="header-container">
+    <h2>Experiência</h2>
+    <p>Minha experiência profissional</p>
+  </div>
+
+  <div class="xp-projects">
+    <div *ngFor="let e of experience" class="experience">
+      <div class="experience-container">
+        <div class="header-experience">
+          <img src="{{ e.img }}" />
+          <div>
+            <h3>{{ e.cargo }}</h3>
+            <p>{{ e.title }}</p>
+          </div>
+        </div>
+        <div class="date-experience">
+          <span>{{ e.init }}</span>
+          -
+          <span>{{ e.end }}</span>
+        </div>
+      </div>
+      <div>
+        <p>{{ e.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

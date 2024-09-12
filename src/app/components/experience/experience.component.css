@@ -1,0 +1,79 @@
+.container-xp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.container-xp h1 {
+  font-weight: 500;
+}
+
+.container-xp p {
+  font-size: 0.8rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container h2 {
+  font-weight: 600;
+}
+
+.xp-projects {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.xp-projects img {
+  width: 4rem;
+}
+
+.experience {
+  width: 50rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.experience p {
+  font-size: 0.7rem;
+}
+
+.experience-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-experience {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-experience h2 {
+  font-weight: 600;
+}
+
+.date-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-experience span {
+  font-size: 0.6rem;
+  color: #666666;
+  margin: 0 5px;
+}

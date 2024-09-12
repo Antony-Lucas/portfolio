@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.header-container h2 {
+  font-weight: 600;
+}
+
 .stack-projects {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
