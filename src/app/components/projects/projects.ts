@@ -1,7 +1,7 @@
 export const projetcs = [
   {
     img: '../../../assets/projects/main.webp',
-    title: 'Koios BI',
+    title: 'Koios BI (public demo)',
     techStack:
       'Angular, TypeScript, Java, SpringBoot, PostgreSQL, AWS, Docker ',
     description:
@@ -38,7 +38,7 @@ export const projetcs = [
   },
   {
     img: '../../../assets/projects/knowbi.webp',
-    title: 'KnowBI',
+    title: 'KnowBI (public demo)',
     techStack: 'Angular, TypeScript, JavaScript, NodeJS, Docker, AWS',
     description:
       'Plataforma WEB da Empresa KnowBI para expor seu serviços e produtos, o usuário também pode acessar a área do cliente onde o mesmo é direcionado para o GLPI da Empresa e também é possível enviar um email de contato solicitando demonstrações ou serviços por dentro da plataforma',
