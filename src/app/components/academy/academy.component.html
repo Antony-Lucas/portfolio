@@ -1,0 +1,25 @@
+<div class="container-academy">
+  <div class="header-container">
+    <h2>Formação acadêmica</h2>
+    <p>Minha jornada acadêmica</p>
+  </div>
+
+  <div class="academy-projects">
+    <div *ngFor="let a of academy" class="academy">
+      <div class="academy-container">
+        <div class="header-academy">
+          <img src="{{ a.img }}" />
+          <div>
+            <h3>{{ a.course }}</h3>
+            <p>{{ a.title }}</p>
+          </div>
+        </div>
+        <div class="date-academy">
+          <span class="init">{{ a.init }}</span>
+          -
+          <span class="end">{{ a.end }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

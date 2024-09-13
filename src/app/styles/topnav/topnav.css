@@ -1,4 +1,4 @@
-.container {
+.container-nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -57,7 +57,7 @@
   }
 
   .nav-container {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -65,6 +65,11 @@
   .container {
     justify-content: space-between;
     padding: 1rem 1rem;
+  }
+
+  .container-nav {
+    justify-content: space-between;
+    padding: 8px 2rem;
   }
 
   .hamburger {

@@ -1,0 +1,52 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.container-about h1 {
+  font-weight: 500;
+}
+
+.container-about p {
+  font-size: 0.8rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container h2 {
+  font-weight: 600;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.about {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h4 {
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    width: 18rem;
+  }
+}

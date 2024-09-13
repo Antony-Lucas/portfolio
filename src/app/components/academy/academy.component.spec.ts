@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TopnavComponent } from './topnav.component';
+import { AcademyComponent } from './academy.component';
 
-describe('TopnavComponent', () => {
-  let component: TopnavComponent;
-  let fixture: ComponentFixture<TopnavComponent>;
+describe('AcademyComponent', () => {
+  let component: AcademyComponent;
+  let fixture: ComponentFixture<AcademyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TopnavComponent]
+      imports: [AcademyComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(TopnavComponent);
+    fixture = TestBed.createComponent(AcademyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

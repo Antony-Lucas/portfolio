@@ -1,4 +1,4 @@
-.container-xp {
+.container-academy {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,11 +7,11 @@
   margin-top: 1rem;
 }
 
-.container-xp h1 {
+.container-academy h1 {
   font-weight: 500;
 }
 
-.container-xp p {
+.container-academy p {
   font-size: 0.8rem;
 }
 
@@ -26,53 +26,56 @@
   font-weight: 600;
 }
 
-.xp-projects {
+.academy-projects {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1.5rem;
   padding: 3rem 0;
 }
 
-.xp-projects img {
+.academy img {
   width: 4rem;
 }
 
-.experience {
+.academy {
   width: 50rem;
-  padding: 1rem;
+  padding: 2rem 1rem;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.experience p {
+.academy p {
   font-size: 0.7rem;
 }
 
-.experience-container {
+.academy-container {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.header-experience {
+.header-academy {
   display: flex;
   justify-content: baseline;
   align-items: center;
-  margin-bottom: 1rem;
 }
 
-.header-experience h2 {
+.header-academy div {
+  margin-left: 1rem;
+}
+
+.header-academy h2 {
   font-weight: 600;
 }
 
-.date-experience {
+.date-academy {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.date-experience span {
+.date-academy span {
   font-size: 0.6rem;
   color: #666666;
   margin: 0 5px;
@@ -86,36 +89,27 @@
   color: #4e7e4b !important;
 }
 
-.description-experience {
-  width: 85%;
-  padding: 0px 1rem;
-}
-
-.description-experience p {
-  text-align: justify;
-}
-
 @media only screen and (max-width: 768px) {
-  .experience {
+  .academy {
     width: 18rem;
+    padding-bottom: 13px;
   }
 
-  .experience-container {
+  .academy-container {
     flex-direction: column;
+  }
+
+  .header-academy h3 {
+    font-size: 12px;
+  }
+
+  .header-academy p {
+    font-size: 10px;
+  }
+
+  .date-academy {
+    padding: 15px;
+    padding-left: 0;
     justify-content: flex-start;
-  }
-
-  .date-experience {
-    justify-content: flex-start;
-    padding-left: 8px;
-  }
-
-  .description-experience {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .description-experience p {
-    text-align: left;
   }
 }

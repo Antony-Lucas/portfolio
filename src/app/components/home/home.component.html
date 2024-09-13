@@ -1,3 +1,66 @@
+<div class="container-nav">
+  <div class="logo-container">
+    <img src="../../../assets/logo.webp" />
+    <span>&#123; Antony Lucas &#125;</span>
+  </div>
+  <nav class="nav-container">
+    <a>Home</a>
+    <a (click)="scrollToTechStack()">Tech Stack</a>
+    <a>Projetos</a>
+    <a>Experiência</a>
+    <a>Sobre</a>
+    <a class="contact">Vamos conversar</a>
+    <a href="https://www.linkedin.com/in/antony-lucas" target="_blank"
+      ><i class="pi pi-linkedin" style="font-size: 1.2rem"></i
+    ></a>
+    <a href="https://github.com/Antony-Lucas" target="_blank"
+      ><i class="pi pi-github" style="font-size: 1.2rem"></i
+    ></a>
+    <a href="https://www.instagram.com/antonyluca_s" target="_blank"
+      ><i class="pi pi-instagram" style="font-size: 1.2rem"></i
+    ></a>
+    <a href="https://wa.link/rwrl1t" target="_blank"
+      ><i class="pi pi-whatsapp" style="font-size: 1.2rem"></i
+    ></a>
+  </nav>
+  <nav class="responsive-nav-container">
+    <button
+      class="hamburger hamburger--elastic"
+      type="button"
+      aria-label="Menu"
+      aria-controls="navigation"
+      aria-expanded="true/false"
+      (click)="toggleMenu()"
+    >
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <div id="navigation" [ngClass]="{ active: isMenuOpen }">
+      <a routerLink="/home">Home</a>
+      <a>Tech Stack</a>
+      <a>Projetos</a>
+      <a>Sobre</a>
+      <a class="contact">Vamos conversar</a>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/antony-lucas" target="_blank"
+          ><i class="pi pi-linkedin" style="font-size: 1.2rem"></i
+        ></a>
+        <a href="https://github.com/Antony-Lucas" target="_blank"
+          ><i class="pi pi-github" style="font-size: 1.2rem"></i
+        ></a>
+        <a href="https://www.instagram.com/antonyluca_s" target="_blank"
+          ><i class="pi pi-instagram" style="font-size: 1.2rem"></i
+        ></a>
+        <a href="https://wa.link/rwrl1t" target="_blank"
+          ><i class="pi pi-whatsapp" style="font-size: 1.2rem"></i
+        ></a>
+      </div>
+    </div>
+  </nav>
+</div>
+
 <section class="container">
   <div class="container-presentation">
     <div class="presentation">
@@ -12,13 +75,15 @@
   </div>
   <div class="continer-scroll-down">
     <span>Conheça meu trabalho</span>
-    <a class="scroll-down3" (click)="scrollToXp()">
+    <a class="scroll-down3" (click)="scrollToTechStack()">
       <i class="pi pi-angle-down" style="font-size: 1.2rem"></i>
     </a>
   </div>
 </section>
 <div>
   <app-stack id="stack"></app-stack>
-  <app-projects id="xp"></app-projects>
-  <app-experience></app-experience>
+  <app-projects id="proj"></app-projects>
+  <app-experience id="xp"></app-experience>
+  <app-academy id="ac"></app-academy>
+  <app-about id="ab"></app-about>
 </div>

@@ -1,0 +1,5 @@
+export const about =
+  'Olá tudo bem? me chamo Antony Lucas, iniciei minha jornada de desenvolvimento em 2019 quando tive meu primeiro contato com JAVA e portugol, pois como eu sempre gostei muito de video games, queria aprender uma forma de desenvolver jogos. Posteriormente foram surgindo oportunidades com novas tecnologias nas quais eu precisei aprimorar muito meus conhecimentos, atividade essa que faço até hoje.';
+
+export const hobbies =
+  'Bom, eu tenho alguns hobbies que me ajudam a manter o foco e me exercitar bem para não deixar o sedentarismo bem abater😂 meu hobbies são: Lutar Boxe, Caminhar, Futebol, video game, Ler artigos de fórums (Dev.to e Medium) e Viajar(esse é o meu favorito). Também me interesso muito por assuntos como o mercado de tecnologia, mercado financeiro, bitcoin, geopolítica, religião(sou cristão), comunicação e bem estar entre pessoas, Novos aprendizadose estou sempre aberto a ouvir novas opiniões e dicas que possam contribuir para o meu crescimento como profissional e como pessoa.';
