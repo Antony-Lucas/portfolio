@@ -13,7 +13,6 @@
 
 .logo-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -23,7 +22,6 @@
 }
 
 .logo-container span {
-  margin-top: 5px;
   font-weight: 600;
   font-size: 12p;
 }

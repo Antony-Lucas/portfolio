@@ -1,26 +1,31 @@
-<div class="container-nav">
+<div class="container-nav" id="home">
   <div class="logo-container">
     <img src="../../../assets/logo.webp" />
-    <span>&#123; Antony Lucas &#125;</span>
+    <span>&#123; Antony_Lucas &#125;</span>
   </div>
   <nav class="nav-container">
-    <a>Home</a>
-    <a (click)="scrollToTechStack()">Tech Stack</a>
-    <a>Projetos</a>
-    <a>Experiência</a>
-    <a>Sobre</a>
-    <a class="contact">Vamos conversar</a>
+    <a (click)="scrollTo(0, 0, 'home')">Home</a>
+    <a (click)="scrollTo(5, 16, 'stack')">Tech Stack</a>
+    <a (click)="scrollTo(4, 16, 'proj')">Projetos</a>
+    <a (click)="scrollTo(4, 16, 'xp')">Experiência</a>
+    <a (click)="scrollTo(4, 16, 'ab')">Sobre</a>
+    <a
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=antonylucas4570@gmail.com&su=Vamos%20Conversar&body=Olá%20Antony!"
+      target="_blank"
+      class="contact"
+      >Vamos conversar</a
+    >
     <a href="https://www.linkedin.com/in/antony-lucas" target="_blank"
-      ><i class="pi pi-linkedin" style="font-size: 1.2rem"></i
+      ><i class="pi pi-linkedin" style="font-size: 1rem"></i
     ></a>
     <a href="https://github.com/Antony-Lucas" target="_blank"
-      ><i class="pi pi-github" style="font-size: 1.2rem"></i
+      ><i class="pi pi-github" style="font-size: 1rem"></i
     ></a>
     <a href="https://www.instagram.com/antonyluca_s" target="_blank"
-      ><i class="pi pi-instagram" style="font-size: 1.2rem"></i
+      ><i class="pi pi-instagram" style="font-size: 1rem"></i
     ></a>
     <a href="https://wa.link/rwrl1t" target="_blank"
-      ><i class="pi pi-whatsapp" style="font-size: 1.2rem"></i
+      ><i class="pi pi-whatsapp" style="font-size: 1rem"></i
     ></a>
   </nav>
   <nav class="responsive-nav-container">
@@ -38,11 +43,17 @@
     </button>
 
     <div id="navigation" [ngClass]="{ active: isMenuOpen }">
-      <a routerLink="/home">Home</a>
-      <a>Tech Stack</a>
-      <a>Projetos</a>
-      <a>Sobre</a>
-      <a class="contact">Vamos conversar</a>
+      <a (click)="scrollTo(0, 0, 'home')">Home</a>
+      <a (click)="scrollTo(5, 16, 'stack')">Tech Stack</a>
+      <a (click)="scrollTo(4, 16, 'proj')">Projetos</a>
+      <a (click)="scrollTo(4, 16, 'xp')">Experiência</a>
+      <a (click)="scrollTo(4, 16, 'ab')">Sobre</a>
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=antonylucas4570@gmail.com&su=Vamos%20Conversar&body=Olá%20Antony!"
+        target="_blank"
+        class="contact"
+        >Vamos conversar</a
+      >
       <div class="social-media">
         <a href="https://www.linkedin.com/in/antony-lucas" target="_blank"
           ><i class="pi pi-linkedin" style="font-size: 1.2rem"></i
@@ -75,7 +86,7 @@
   </div>
   <div class="continer-scroll-down">
     <span>Conheça meu trabalho</span>
-    <a class="scroll-down3" (click)="scrollToTechStack()">
+    <a class="scroll-down3" (click)="scrollTo(5, 16, 'stack')">
       <i class="pi pi-angle-down" style="font-size: 1.2rem"></i>
     </a>
   </div>
@@ -87,3 +98,51 @@
   <app-academy id="ac"></app-academy>
   <app-about id="ab"></app-about>
 </div>
+
+<footer class="container-footer">
+  <div class="footer">
+    <div class="footer-logo-container">
+      <img src="../../../assets/logo.webp" />
+      <span>&#123; Antony_Lucas &#125;</span>
+    </div>
+    <div class="footer-my-info">
+      <p>91 9 85657664</p>
+      <p>antonylucas4570&#64;gmail.com</p>
+      <nav class="footer-nav-container">
+        <a href="https://www.linkedin.com/in/antony-lucas" target="_blank"
+          ><i class="pi pi-linkedin" style="font-size: 1rem"></i
+        ></a>
+        <a href="https://github.com/Antony-Lucas" target="_blank"
+          ><i class="pi pi-github" style="font-size: 1rem"></i
+        ></a>
+        <a href="https://www.instagram.com/antonyluca_s" target="_blank"
+          ><i class="pi pi-instagram" style="font-size: 1rem"></i
+        ></a>
+        <a href="https://wa.link/rwrl1t" target="_blank"
+          ><i class="pi pi-whatsapp" style="font-size: 1rem"></i
+        ></a>
+      </nav>
+    </div>
+  </div>
+  <p-divider />
+  <div class="footer-bottom">
+    <div class="footer-bottom-container">
+      <a (click)="scrollTo(0, 0, 'home')">Home</a>
+      <a (click)="scrollTo(5, 16, 'stack')">Tech Stack</a>
+      <a (click)="scrollTo(4, 16, 'proj')">Projetos</a>
+      <a (click)="scrollTo(4, 16, 'xp')">Experiência</a>
+      <a (click)="scrollTo(4, 16, 'ab')">Sobre</a>
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=antonylucas4570@gmail.com&su=Vamos%20Conversar&body=Olá%20Antony!"
+        target="_blank"
+        class="contact"
+        >Vamos conversar</a
+      >
+    </div>
+    <div class="footer-bottom-info">
+      <p>
+        Desenhado e construído com ❤️ e café por <strong>Antony Lucas</strong>
+      </p>
+    </div>
+  </div>
+</footer>
