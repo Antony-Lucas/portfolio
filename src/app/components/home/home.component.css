@@ -92,8 +92,17 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .container{
+    margin-top: 7rem;
+  }
+
+  .container-presentation{
+    flex-direction: column-reverse;
+  }
+
   .presentation {
-    width: 28em;
+    width: 17em;
+    margin-top: 18px;
   }
 
   .presentation h1 {
@@ -101,7 +110,7 @@
   }
 
   .me {
-    width: 20rem;
+    width: 9rem;
     height: 8.6rem;
   }
 
