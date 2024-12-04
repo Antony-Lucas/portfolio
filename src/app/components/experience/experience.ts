@@ -5,7 +5,7 @@ export const experience = [
     cargo: 'Full Stack Developer',
     description:
       'Atuo no Desenvolvimento de APIs com java usando o módulo Spring boot do framework Spring Implementação de autenticação JWT com spring security Integração banco de dados remoto com o banco de dados da aplicação por meio de API Desenvolvimeto front end angular para uma aplicação de dashboards Modelagem com banco de dados relacional com UML Desenvolvimento de microsserviços e mensageria com RabbitMQ Deploy da aplicação na AWS usando EC2, CloudFront e Route 53',
-    init: '5 Nov 2023',
+    init: '5 Set 2023',
     end: 'O momento',
   },
   {
@@ -15,7 +15,7 @@ export const experience = [
     description:
       'Atuei na implantação do sistema hospitalar TASY, cumprindo requisitos da ANS e SBIS, realizando parametrização e adequação às regras de negócio dos clientes, desenvolvimento de relatórios em SQL, criação e refinamento de processos internos, e integração com sistemas bancários e interfaces externas.',
     init: '1 Ago 2022',
-    end: '5 Nov 2023',
+    end: '5 Set 2023',
   },
   {
     img: '../../../assets/experience/microlins.png',

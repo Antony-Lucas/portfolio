@@ -10,12 +10,13 @@ export const projetcs = [
     liveLink: false,
   },
   {
-    img: '../../../assets/projects/mytasks.webp',
-    title: 'My tasks',
-    techStack: 'JavaScript, React, NestJS, MySQL, Docker',
+    img: '../../../assets/projects/mensageria.webp',
+    title: 'Mensageria com RabbitMQ',
+    techStack:
+      'Java, SpringBoot, RabbitMQ, CloudAMPQ, Postman, PostgreSQL, SMTP, Maven',
     description:
-      'Aplicação WEB com NestJs e React voltada para o gerênciamento de tarefas. onde você pode criar um usuário e ter acesso ao sistema onde você tem a possibilidade de criar, listar, atualizar e excluir tarefas com uma UI bem amigável e responsiva.',
-    link: 'https://github.com/Antony-Lucas/task-app-jack-experts',
+      'Serviço para disparar mensagem por email automáticamente. Criado com arquitetura orientada a eventos e microsserviços, salvando os dados do usuário que automáticamente vão pra queue do broker para o recebimento de uma mensagem de email configurável',
+    link: 'https://github.com/Antony-Lucas/Microservices_rabbitMQ',
     liveLink: false,
   },
   {
@@ -26,6 +27,15 @@ export const projetcs = [
       'Fórum hospitalar WEB desenvolvido para agilizar a comuniação de questões hospitalares relacionados aos diversos setores internos das instituições de saúde. o Usuário pode criar uma conta, escolher o setor para qual quer direcionar sua dúvida e postar sua pergunta.',
     link: 'https://github.com/Antony-Lucas/Forum-Hospitalar-FrontEnd',
     liveLink: false,
+  },
+  {
+    img: '../../../assets/projects/mytasks.webp',
+    title: 'My tasks',
+    techStack: 'JavaScript, React, NestJS, MySQL, Docker',
+    description:
+      'Aplicação WEB com NestJs e React voltada para o gerênciamento de tarefas. onde você pode criar um usuário e ter acesso ao sistema onde você tem a possibilidade de criar, listar, atualizar e excluir tarefas com uma UI bem amigável e responsiva.',
+    link: 'https://github.com/Antony-Lucas/task-app-jack-experts',
+    liveLink: 'https://taskappff.netlify.app/',
   },
   {
     img: '../../../assets/projects/trilog.webp',
@@ -44,15 +54,5 @@ export const projetcs = [
       'Plataforma WEB da Empresa KnowBI para expor seu serviços e produtos, o usuário também pode acessar a área do cliente onde o mesmo é direcionado para o GLPI da Empresa e também é possível enviar um email de contato solicitando demonstrações ou serviços por dentro da plataforma',
     link: 'https://github.com/Antony-Lucas/Knowbi-page',
     liveLink: 'https://knowbi.com.br/home',
-  },
-  {
-    img: '../../../assets/projects/mensageria.webp',
-    title: 'Mensageria com RabbitMQ',
-    techStack:
-      'Java, SpringBoot, RabbitMQ, CloudAMPQ, Postman, PostgreSQL, SMTP, Maven',
-    description:
-      'Serviço para disparar mensagem por email automáticamente. Criado com arquitetura orientada a eventos e microsserviços, salvando os dados do usuário que automáticamente vão pra queue do broker para o recebimento de uma mensagem de email configurável',
-    link: 'https://github.com/Antony-Lucas/Microservices_rabbitMQ',
-    liveLink: false,
   },
 ];
